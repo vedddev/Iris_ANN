@@ -3,7 +3,7 @@ import streamlit as st
 import numpy as np
 import pickle
 import tensorflow as tf
-
+ 
 model = tf.keras.models.load_model('model.h5')
 
 with open('scaler.pkl','rb') as file:
